@@ -1,13 +1,10 @@
 /** @type {import('next').NextConfig} */
-
-export default nextConfig;
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/derick-develop', // nome do seu repositório
+  basePath: '/derick-develop',
   images: {
     unoptimized: true,
   },
 }
 
-module.exports = nextConfig
+export default nextConfig
